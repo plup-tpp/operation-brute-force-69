@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Operation Brute Force 69</title>
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+
+  <style>
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    body {
+      font-family: Arial;
+      background-color: #1b2d41;
+      color: #eeeeee;
+    }
+
+    .explanation {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    p li {
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    .role {
+      display: inline-block;
+    }
+
+    .role-name {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .helper {
+      display:inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
+
+    .role-icon {
+      margin-left: 15px;
+      vertical-align: middle;
+    }
+    #role-button {
+      color: #333333;
+      background-color: #EEEEEE;
+      padding: 8px 20px;
+      text-decoration:none;
+      font-weight:bold;
+      border-radius:5px;
+      cursor:pointer;
+    }
+  </style>
+  <script>
+    function ShowRoleText() {
+      var role_text = "";
+      var rng = Math.random();
+      if (rng < 0.40) { // 40%
+        role_text = "Your role is: Selector";
+      } else if (rng < 0.80) { // 40%
+        role_text = "Your role is: Walker";
+      } else { // 20%
+        role_text = "Your role is: Progressor";
+      }
+
+      document.getElementById("role-text").textContent = role_text;
+    }
+  </script>
+</head>
+
+<body style="margin: 0;">
+  <img src="operation-brute-force-69-final.png" class="center"/>
+  <br/>
+  <p style="font-weight: bold; text-align: center; font-size: 32px;">PB: ~50</p>
+  <br/>
+  <div class="explanation">
+    <div class="role">
+      <div class="role-name">Role: Selector <img class="role-icon" src="Gigachad.png"/></p>
+        <p>Just send "select" as often as possible. Your role is very simple, but absolutely <i>crucial</i> to the success of the mission, as you pressing select creates windows which swallow up troll inputs.</p>
+    </div>
+    <br/>
+    <br/>
+    <div class="role">
+      <div class="role-name">Role: Walker <img class="role-icon" src="chickenwalk.gif"/></p>
+      <p>Your job is to send the correct movement commands at the correct time. For example, on step 1, input left. On step 2, input up. On step 3, input right. And so on until Juan.</p>
+    </div>
+    <br/>
+    <br/>
+    <div class="role">
+      <div class="role-name">Role: Progressor <img class="role-icon" src="peepoSundayDrive.gif"/></p>
+        <p>Just send "a" and "b" as often as possible. You create windows after the Selectors' select presses where Walkers can input the correct movement commands. Have a slight preference for b, as it can negate troll start presses.</p>
+    </div>
+    <br/>
+    <br/>
+    <button onclick="ShowRoleText()" type="button" id="role-button">Get your role!</button>
+    <br/>
+    <br/>
+    <div id="role-text"></div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <h3>General Tips:
+    <ul>
+      <li>Please stick to your role! The distribution of roles is statistically controlled and tuned to create an effective mix of chat commands hitting the TPP bot.</li>
+      <li>If there is a mod announcement to "reroll", refresh this page without cache (ctrl+F5) and click the role button again.</li>
+      <li>You can't type the same message twice in a row in Twitch chat. Send a random letter which is not a command (such as 'w' or 'j') in between repetitions.</li>
+      <li>The commands are case sensitive. "left" will work, but "Left" won't.</li>
+      <li>It is possible to get shadow-banned for spamming like crazy. A message every 1-3 seconds should be enough.</li>
+      <li>Have fun GIGASCHWAB. <img class="role-icon" src="gigaschwab.png"/></li>
+
+    <br/>
+    <br/>
+    <p>PS: I hope people don't find the name too offputting, I just thought it was hilarious that we need to get exactly 69 inputs correct.</p>
+  </div>
+</body>
+</html>
